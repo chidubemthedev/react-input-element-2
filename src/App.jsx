@@ -2,13 +2,14 @@ import { ChakraProvider } from "@chakra-ui/react";
 import PhonenumberInput from "./phonenumber-input";
 
 import "./App.css";
+import { TabTest } from "./tab-test";
 
 function App() {
   return (
     <>
       <ChakraProvider>
-        {/* <p>this is a test</p> */}
-        <PhonenumberInput />
+        {/* <PhonenumberInput /> */}
+        <TabTest />
       </ChakraProvider>
     </>
   );
