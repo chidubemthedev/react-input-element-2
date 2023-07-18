@@ -16,7 +16,7 @@
 .react-tel-input .selected-flag {
   display: flex;
   justify-content: center;
-  padding: 0;
+  padding-right: 15px;
   /* border-right: 1px solid rgba(222, 223, 223, 1); */
   outline: 1px solid rgba(222, 223, 223, 1);
   border: none;
@@ -35,7 +35,9 @@
 .react-tel-input .flag-dropdown.open .selected-flag {
   display: flex;
   justify-content: center;
-  padding: 0;
+  /* padding: 0; */
+  padding-right: 15px;
+
   /* border-right: 1px solid rgba(222, 223, 223, 1); */
   outline: 1px solid rgba(222, 223, 223, 1);
 
@@ -46,7 +48,9 @@
 .react-tel-input .selected-flag:hover {
   display: flex;
   justify-content: center;
-  padding: 0;
+  /* padding: 0; */
+  padding-right: 15px;
+
   /* border-right: 1px solid rgba(222, 223, 223, 1); */
   outline: 1px solid rgba(222, 223, 223, 1);
   border-radius: 8px 0 0 8px;
@@ -92,4 +96,17 @@
 
 .react-tel-input .country-list .country:hover {
   background-color: rgba(2, 106, 232, 0.08);
+}
+
+.react-tel-input .selected-flag .arrow {
+  position: relative;
+  top: 50%;
+  margin-top: -2px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 4px solid #555;
+  margin-left: 5px;
 }
